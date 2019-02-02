@@ -7,9 +7,9 @@ import "./styles.css";
 
 const links = [
   { name: "Shop", link: "" },
-  { name: "Papers", link: "https://hxks.typeform.com/to/IRwbFr" },
+  { name: "Papers", link: "https://medium.com/hacksnextdoor" },
   { name: "Work", link: "" },
-  { name: "Contact", link: "https://medium.com/hacksnextdoor/" }
+  { name: "Contact", link: "https://hxks.typeform.com/to/IRwbFr" }
 ];
 
 function App() {
@@ -51,7 +51,7 @@ function App() {
                     className="link"
                     style={{
                       fontSize: 13,
-                      padding: 2,
+                      padding: 3,
                       textDecorator: 0,
                       color: "black"
                     }}
