@@ -1,4 +1,9 @@
 .App {
   font-family: "Lato", sans-serif;
   text-align: center;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
 }
