@@ -20,7 +20,8 @@
     "now-build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "now --name hnd"
+    "deploy": "now",
+    "alias-prod": "now ln set https://www-hnd-9mm3mcvlt.now.sh hacksnextdoor.io"
   },
   "browserslist": [
     ">0.2%",
