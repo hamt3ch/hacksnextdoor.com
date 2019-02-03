@@ -1,4 +1,8 @@
 {
   "name": "hnd",
-  "alias": "hacksnextdoor.io"
+  "alias": "hacksnextdoor.io",
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
+  ]
 }
